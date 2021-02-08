@@ -19,7 +19,7 @@ def home():
 
     ip = (ip_address)
     key = "" #Put your https://ipstack.com/ API key in the quotes!
-    url = ("http://api.ipstack.com/{ip}?access_key={key}")
+    url = (f"http://api.ipstack.com/{ip}?access_key={key}")
     querystring = {"format":"json"}
 
     headers = {
